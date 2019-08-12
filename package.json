@@ -1,0 +1,31 @@
+{
+  "name": "npm-run-graph",
+  "bin": {
+    "npm-run-graph": "index.js"
+  },
+  "version": "0.0.1",
+  "description": "Visually inspect how `npm run` scripts depend on each other, using graphviz.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klntsky/npm-run-graph.git"
+  },
+  "keywords": [
+    "npm",
+    "graph",
+    "build-tool"
+  ],
+  "author": "klntsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klntsky/npm-run-graph/issues"
+  },
+  "homepage": "https://github.com/klntsky/npm-run-graph#readme",
+  "dependencies": {
+    "graphviz": "0.0.9",
+    "rcolor": "^1.0.1"
+  }
+}
