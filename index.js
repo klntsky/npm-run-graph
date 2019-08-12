@@ -13,7 +13,7 @@ if (typeof package.scripts !== 'object') {
   process.exit(1);
 }
 
-const graph = graphviz.digraph(package.name || 'unknown');
+const graph = graphviz.digraph('G');
 const colorMap = new Map();
 const re = /npm\s+run\s+([a-zA-Z-_:]+)/g;
 
