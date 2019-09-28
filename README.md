@@ -9,3 +9,13 @@ An example of such a graph for a real-world project:
 ![npm-run-graph.png](npm-run-graph.png)
 
 [Graphviz](https://graphviz.org/) is a runtime dependency.
+
+## Usage
+
+```bash
+$ npm-run-graph
+# (some output in graphiz format)
+$ ls 
+# (some files)
+npm-run-graph.png
+```
